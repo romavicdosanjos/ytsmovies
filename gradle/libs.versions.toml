@@ -12,7 +12,8 @@ composeBom = "2025.06.01"
 work_version = "2.10.2"
 room_version = "2.7.2"
 startup_runtime = "1.2.0"
-nav_version = "2.9.0"
+nav_version = "2.9.1"
+googleFontsVersion = "1.8.3"
 kotlinxCoroutines = "1.10.2"
 koin = "4.1.0"
 koinAndroidxCompose = "4.1.0"
@@ -40,6 +41,7 @@ androidx-room = { group = "androidx.room", name = "room-runtime", version.ref = 
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room_version" }
 androidx-startup-runtime = { group = "androidx.startup", name = "startup-runtime", version.ref = "startup_runtime" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "nav_version" }
+androidx-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "googleFontsVersion" }
 kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroidxCompose" }

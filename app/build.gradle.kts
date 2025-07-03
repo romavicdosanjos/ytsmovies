@@ -43,6 +43,8 @@ android {
         compose = true
         buildConfig = true
     }
+    buildToolsVersion = "36.0.0"
+    ndkVersion = "29.0.13599879 rc2"
 }
 
 dependencies {
@@ -59,6 +61,7 @@ dependencies {
     implementation(libs.androidx.room)
     implementation(libs.androidx.startup.runtime)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.google.fonts)
     implementation(libs.kotlinx.coroutines)
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)

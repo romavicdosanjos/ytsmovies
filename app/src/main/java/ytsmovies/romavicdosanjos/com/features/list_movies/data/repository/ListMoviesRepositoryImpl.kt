@@ -20,8 +20,9 @@ class ListMoviesRepositoryImpl(
         if (response.isSuccessful) {
             val body = response.body()
             if (body != null) {
-                moviesDao.addMovies(listMoviesMapper.map(body))
-                emit(moviesDao.getMovies())
+               /* moviesDao.addMovies(listMoviesMapper.map(body))
+                emit(moviesDao.getMovies())*/
+                emit(listMoviesMapper.map(body))
             } else {
                 throw Exception("The response is empty.")
             }

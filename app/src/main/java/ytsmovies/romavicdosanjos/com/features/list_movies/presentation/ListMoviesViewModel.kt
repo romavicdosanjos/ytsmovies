@@ -27,7 +27,7 @@ class ListMoviesViewModel(
         fetchPlanetaryApod(request = ListMoviesRequest())
     }
 
-    private fun fetchPlanetaryApod(
+    public fun fetchPlanetaryApod(
         request: ListMoviesRequest
     ) {
         viewModelScope.launch {

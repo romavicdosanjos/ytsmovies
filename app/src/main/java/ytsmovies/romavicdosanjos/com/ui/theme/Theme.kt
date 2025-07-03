@@ -26,7 +26,7 @@ val YtsDarkColorScheme = darkColorScheme(
 
 val YtsLightColorScheme = lightColorScheme(
     primary = YtsPrimary,
-    secondary = Color(0xFFE0F7EC), // Um verde claro complementar
+    secondary = Color(0xFFE0F7EC),
     tertiary = Color(0xFF4CAF50),
     background = Color(0xFFF5F5F5),
     surface = Color.White,
@@ -55,7 +55,7 @@ fun YtsMoviesTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = Typography,
+        typography = typography,
         content = content
     )
 }
